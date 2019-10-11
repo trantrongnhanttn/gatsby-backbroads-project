@@ -19,7 +19,7 @@ module.exports = {
     },
     twitterUsername: '@devtato',
     image: '/defaultBcg.jpeg',
-    siteUrl: 'https://peaceful-leavitt-6caa25.netlify.com',
+    siteUrl: 'https://devtato-gatsby-demo.netlify.com',
   },
   plugins: [
     {
@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://peaceful-leavitt-6caa25.netlify.com',
-        sitemap: 'https://peaceful-leavitt-6caa25.netlify.com/sitemap.xml',
+        host: 'https://devtato-gatsby-demo.netlify.com',
+        sitemap: 'https://devtato-gatsby-demo.netlify.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
